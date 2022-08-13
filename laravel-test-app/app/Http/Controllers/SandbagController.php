@@ -13,7 +13,7 @@ class SandbagController extends Controller
      */
     public function index()
     {
-        //
+        return to_route('/');
     }
 
     /**
